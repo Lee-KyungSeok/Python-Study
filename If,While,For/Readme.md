@@ -24,22 +24,29 @@
 
   ### 2. 사용 예시
 
+  > 예시 1
+
   ```Python
-  # 예시 1
   if 3 < 5:
       print("3은 5보다 작습니다.")
       #if문은 여기까지 들여쓰기 된 부분까지
   print("여기는 항상 실행된다.") # 들여쓰기가 되지 않으면 항상 실행
+  ```
 
-  # 예시 2 (if, else)
+  > 예시 2
+
+  ```Python
   if 'p' in "python":
       # 참인 경우 실행
       print("p라는 글자는 python 안에 포함되어 있습니다.")
   else:
       # 거짓인 경우 실행
       print("p는 python 안에 포함되어 있지 않습니다.")
+  ```
 
-  # 예시 3(elif 및 다중조건)
+  > 예시3 (elif 및 다중조건)
+
+  ```Python
   num = int(input("0~9까지 숫자를 하나 입력하세요"))
   if num > 8:
       print("입력한 값이 8보다 큽니다.")
@@ -50,8 +57,11 @@
           print("입력한 값이 5보다 같거나 작고, 2보다는 큽니다. ")
       else:
           print("입력한 값이 2보다 작거나 같습니다.")
+  ```
 
-  # 예시 4
+  > 예시 4
+
+  ```Python
   n = random.randint(1,100)
   guess = int(input("1~100 사이 입력"))
   if abs(n-guess)<=10 and n!=guess:
@@ -78,22 +88,30 @@
 
   ### 2. 사용 예시
 
+  > 예시 1 ( 1부터 5까지 출력 )
+
   ```Python
-  # 예제 1 ( 1부터 5까지 출력 )
   n=1
   while n <= 5:
       print(n)
       n += 1
 
-  # 예제 2 (break문 활용)
+  ```
+
+  > 예시 2 (break문 활용)
+
+  ```Python
   n=1
   while True:
       print(n)
       n+=1
       if n>5:
           break
+  ```
 
-  # 예제 3 (1~100 랜덤으로 뽑아 입력한 값과 차이를 맞출때까지 비교)
+  > 예시 3 (1~100 랜덤으로 뽑아 입력한 값과 차이를 맞출때까지 비교)
+
+  ```Python
   n = random.randint(1,100)
   while True:
       guess = int(input("100 이하의 정수값 입력"))
@@ -119,6 +137,8 @@
 
   ### 2. 사용 예시
 
+  > 예시 1 (리스트), 예시 2 (range => 1부터 10까지 출력)
+
   ```Python
   # 예시 1 (리스트)
   for el in [1, 2, 3, 4]:
@@ -130,7 +150,11 @@
   for i in range(1, 10+1):
       print(i)
 
-  # 예시 3 (2와 3의 약수 더하기)
+  ```
+
+  > 예시 3 (2와 3의 약수 더하기)
+
+  ```Python
   num = 0
   for i in range(1,10):
       if i<=3:
@@ -141,8 +165,11 @@
           else:
               pass
   print(num)
+  ```
 
-  # 예시 4 (3, 5, 15의 배수에 따라 다르게 출력)
+  > 예시 4 (3, 5, 15의 배수에 따라 다르게 출력)
+
+  ```Python
   for index in range(1,20):
       if index %3 ==0 and index %5 != 0:
           print("fizz")
@@ -152,8 +179,11 @@
           print("fizzbuzz")
       else:
           print(index)
+  ```
 
-  # 예시 5 (1~ 1000 중 소수 판별)
+  > 예시 5 (1~ 1000 중 소수 판별)
+
+  ```Python
   for i in range(1,1001):
       if i==1 or i==2:
           print("{}는 소수입니다.".format(i))
