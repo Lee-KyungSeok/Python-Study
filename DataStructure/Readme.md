@@ -4,6 +4,7 @@
   - csv
   - set
   - List Comprehensions
+  - [몇가지 문제](https://github.com/Lee-KyungSeok/Python-Study/tree/master/DataStructure/Example)
 
 ---
 
