@@ -138,14 +138,22 @@
     - None : NoneFalse 친구들
   - bool() : 어떤값이 참인지 궁금할 때 사용
 
-  > dfdf.java
-
   ```Python
   print()
   print(bool(1), bool(""), bool('False'), bool(None))
   # True, False, True, False 반환
   ```
 
+  ### 2. and 와 or
+  - and : 둘다 True인 경우 True를 반환
+  - or : 둘중 하나만 True인 경우 True를 반환
+
+  ```Python
+  n = 100
+  comp = 50
+  print(abs(n-comp)<=10 and n!=comp) # False
+  print(abs(n-comp)>=10 or n!=comp) # True
+  ```
 
 ---
 
