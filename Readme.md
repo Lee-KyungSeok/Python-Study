@@ -1,4 +1,4 @@
-# Android Study
+# Python Study
 
 ## 개념설명
 > ### 1. [Type](https://github.com/Lee-KyungSeok/Python-Study/tree/master/Type)
