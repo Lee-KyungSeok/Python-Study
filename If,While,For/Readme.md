@@ -2,7 +2,8 @@
   - if
   - while
   - for
-  - 모듈 불러오기
+  - 모듈 불러오기, pass, all, any, range
+  - [몇가지 문제(Palindrome)](https://github.com/Lee-KyungSeok/Python-Study/tree/master/If%2CWhile%2CFor/Example)
 
 ---
 
