@@ -54,12 +54,20 @@
 
   ```
 
-  ### int()
+  ### 2. int()
   - number와 String을 int형으로 변환한다.
 
   ```Python
   age_string = "54"
   age_int = int(age_string)
+  ```
+
+  ### 3. abs()
+  - 값의 절댓값을 불러옴
+
+  ```Python
+  print(abs(10-15)) # 5 출력
+  print(abs(15-10)) # 5 출력
   ```
 
 ---
