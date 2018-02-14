@@ -12,3 +12,6 @@
 
 > ### 4. [DataStructure](https://github.com/Lee-KyungSeok/Python-Study/tree/master/DataStructure)
 >> - tuple / dictionary / csv / set / List Comprehensions
+
+> ### 5. [Function](https://github.com/Lee-KyungSeok/Python-Study/tree/master/Function)
+>> - tuple / dictionary / csv / set / List Comprehensions
