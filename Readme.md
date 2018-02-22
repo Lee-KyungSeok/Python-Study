@@ -14,4 +14,7 @@
 >> - tuple / dictionary / csv / set / List Comprehensions
 
 > ### 5. [Function](https://github.com/Lee-KyungSeok/Python-Study/tree/master/Function)
->> - tuple / dictionary / csv / set / List Comprehensions
+>> - Function basic / Packing & Unpacking / Recursion Function / 예외처리
+
+> ### 6. [File IO](https://github.com/Lee-KyungSeok/Python-Study/tree/master/FileIO)
+>> - open / with /  Whitespace Character / pprint
