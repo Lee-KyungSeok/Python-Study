@@ -1,6 +1,6 @@
 # File IO 문제 예시
-  - 1. Hello World 10번, Hello Python 10번 입력하고 각각 20번 10번 읽기
-  - 2. csv 파일 변환 예제
+  - Hello World 10번, Hello Python 10번 입력하고 각각 20번 10번 읽기
+  - csv 파일 변환 예제
 
 ---
 

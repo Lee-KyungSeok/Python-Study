@@ -2,6 +2,7 @@
   - open
   - with
   - 참고 -  Whitespace Character, pprint
+  - [몇가지 문제](https://github.com/Lee-KyungSeok/Python-Study/tree/master/FileIO/Practice)
 
 ---
 
