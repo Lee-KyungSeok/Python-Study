@@ -18,3 +18,6 @@
 
 > ### 6. [File IO](https://github.com/Lee-KyungSeok/Python-Study/tree/master/FileIO)
 >> - open / with /  Whitespace Character / pprint
+
+> ### 7. [Module](https://github.com/Lee-KyungSeok/Python-Study/tree/master/Module)
+>> - Module / dir() / \_\_name\_\_
