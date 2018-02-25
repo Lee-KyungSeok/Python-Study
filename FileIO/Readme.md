@@ -6,21 +6,91 @@
 ---
 
 ## open
-  ### 1. dd
-  - dd
+  ### 1. 사용방법
+  - `open`을 이용하기 위해서는 경로와 모드가 필요
+  - 경로
+    - 상대경로 : 상대적인 디렉토리 파악 (현재 디렉토리의 파일인 경우 "./" 을 경로로 지정)
+    - 절대경로 : 파일의 절대 위치를 파악 (윈도우의 경우 \\\\ 두개 씩 작성해야 한다.)
+  - 모드
+    - `w` : write 모드, 파일 전체에 새로 쓰기, 파일이 없다면 생성
+    - `r` : read 모드, 파일을 읽는 모드
+    - `a` : append 모드, 파일에 내용을 추가하는 모드
+  - 파일을 read 하는 경우 커서가 읽은 후를 가리키고 있으므로 `f.seek(0)` 인 0번째 글자로 커서를 옮겨 주는 메소드를 이용하여 다시 read 해야 한다.
+
+  > 사용방법
+
+  ```Python
+  f = open("파일경로", "모드")
+  # 로직작성
+  f.close()
+  ```
+
+  ### 2. 예제
+  - `readline` 의 경우 한줄씩 읽도록 해준다.
+
+  > 상대경로
+
+  ```Python
+  # 상대경로 - write
+  f = open("./hello.txt","w")
+  f.write("Hello World!")
+  f.close() # hello.txt을 만들고 여기에 "Hello World!" 내용을 저장
+
+  # 상대경로 - append
+  f = open("./hello.txt", "a")
+  for i in range(2, 10+1):
+      content ="\n" + str(i) + "번째 줄입니다."
+      f.write(content)
+  f.close()  # hello.txt 파일에 작성한 내용들을 추가
+
+  # 상대경로 - read
+  f = open("./hello.txt", "r")
+  content = f.read()
+  print(content)
+  f.seek(0) # 이는 0번째 글자로 커서를 옮겨 주는 메소드로 다시 read 할 수 있게 된다.
+  f.close()  # hello.txt 파일에 저장된 내용을 읽는다.
+  ```
+
+  > 절대경로
 
   ```Python
 
+  # 절대경로 - read
+  f2 = open("C:\\workspaces\\Python\\FileIO\\hello.txt", "r")
+  content2 = f2.read()
+  print(content2)
+  f2.close()
+
+  # 절대경로 - readline
+  f = open("C:\\workspaces\\Python\\FileIO\\hello.txt", "r")
+  print(f.readline())
+  print(f.readline())
+  f.close()
   ```
 
 ---
 
 ## with
-  ### 1. dd
-  - dd
+  ### 1. 개념 및 사용방법
+  - `with` 는 자동으로 닫아주는 기능을 수행 (즉, close를 자동으로 실행해준다)
+  - 이는 enter와 exit 이라는 메소드를 실행하는 기능을 한다.
 
   ```Python
+  with open("path", "mode") as f:
+  #   로직 작성 (ex> f.write)
+  ```
 
+  ### 2. 예제
+  - `f.closed` 의 경우 잘 파일이 닫혀있는지 확인하는 기능을 수행한다.
+
+  ```Python
+  with open("./new.txt", "w") as f:
+      f.write("안녕하세요! with입니다.")
+
+  if not f.closed:
+      print("파일을 꺼야합니다")
+  else:
+      print("파일이 꺼져있습니다.")
   ```
 ---
 
