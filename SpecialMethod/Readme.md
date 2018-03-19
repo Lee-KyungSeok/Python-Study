@@ -97,10 +97,44 @@
   \| | object.\_\_or\_\_(self, other)
 
   ### 2. Extended Assignments
-  - dd
+
+  Operator | Method
+  :----: | :----:
+  \+= | object.\_\_iadd\_\_(self, other)
+  \-= | object.\_\_isub\_\_(self, other)
+  \*= | object.\_\_imul\_\_(self, other)
+  //= | object.\_\_ifloordiv\_\_(self, other)
+  /= | object.\_\_idiv\_\_(self, other)
+  %= | object.\_\_imod\_\_(self, other)
+  \*\*= | object.\_\_ipow\_\_(self, other)
+  \>\>== | object.\_\_ilshift\_\_(self, other)
+  <<== | object.\_\_irshift\_\_(self, other)
+  &= | object.\_\_iand\_\_(self, other)
+  ^= | object.\_\_ixor\_\_(self, other)
+  \|= | object.\_\_ior\_\_(self, other)
 
   ### 3. Unary Operators
-  - dd
+
+  Operator | Method
+  :----: | :----:
+  \- | object.\_\_neg\_\_(self, other)
+  \+ | object.\_\_pos\_\_(self, other)
+  abs() | object.\_\_abs\_\_(self, other)
+  ~ | object.\_\_invert\_\_(self, other)
+  complex() | object.\_\_complex\_\_(self, other)
+  int() | object.\_\_int\_\_(self, other)
+  long() | object.\_\_long\_\_(self, other)
+  float() | object.\_\_float\_\_(self, other)
+  oct() | object.\_\_oct\_\_(self, other)
+  hex() | object.\_\_hex\_\_(self, other)
 
   ### 4. Comparion Operators
-  - dd
+
+  Operator | Method
+  :----: | :----:
+  < | object.\_\_lt\_\_(self, other)
+  <= | object.\_\_le\_\_(self, other)
+  == | object.\_\_eq\_\_(self, other)
+  != | object.\_\_ne\_\_(self, other)
+  \>= | object.\_\_ge\_\_(self, other)
+  \> | object.\_\_gt\_\_(self, other)
