@@ -91,3 +91,22 @@ test(1, 2, 3) # 출력 => a : 1, b : 2, c : 3
 test(b=2, c=4, a=5) # 출력 => a : 5, b : 2, c : 4
 test(3, c=4, b=2) # 출력 => a : 3, b : 2, c : 4
 # test(c=4, b=2, 3) 이러면 에러를 띄운다 (위치인자는 항상 키워드인자 앞에 나와야 한다.)
+
+
+## 참고
+# 함수 자체를 변수로 받을 수 있다.
+def print_hello(name):
+    print("Hello " + name)
+
+print_hello_name = print_hello
+print_hello_name('kyung')
+
+func_list = [print_hello, 1, 2, 3]
+func_list[0]('kyung')
+
+func_dict = {
+    'func' : print_hello,
+    'test' : 11,
+    'test2' : 'sss'
+}
+func_dict['func']('kyung')

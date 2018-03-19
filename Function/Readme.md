@@ -13,6 +13,7 @@
     - 추상화 : 별도에 공간에 존재하여, 변수간 간섭되는 방해를 일으키지 않는 방법
     - 분리 : 코드는 다른곳에 작성되어, 우리가 필요한 경우 호출만 하여 사용할 수 있는 방법
   - def func_name(arg): 후에 아래에 탭키 공백 후 로직 작성
+  - 함수 자체를 변수 혹은 리스트, dictionary 에 넣을 수 있다.
 
   ```Python
   # def func_name(arg):
@@ -71,6 +72,25 @@
   number = multi_2(number)
   number = add_5(number)
   print(number)
+  ```
+  
+  > 예시 5 (함수를 변수 혹은 리스트, dictionary 에 넣을 수 있다.)
+
+  ```python
+  def print_hello(name):
+      print("Hello " + name)
+      
+  print_hello_name = print_hello
+  print_hello_name('kyung')
+  
+  func_list = [print_hello, 1, 2, 3]
+  func_list[0]('kyung')
+
+  func_dict = {
+      'func' : print_hello,
+      'test' : 111
+  }
+  func_dict['func']('kyung')
   ```
 
   ### 2. default value
