@@ -1,6 +1,8 @@
 # Basic Jupyter
   - Jupyter notebook 사용
   - requests
+  - beautifulsoup4
+  - robots.txt
 
 ---
 
@@ -100,3 +102,51 @@
   ```
 
   ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/BasicJupyter/picture/beautifulsoup.png)
+
+---
+## robots.txt
+  ### 1. robots.txt 란?
+  - 인터넷 검색엔진 배제 표준(Robots Exclusion Protocol)이란 보안이 필요한 내용이 검색엔진에 유출되지 못하도록 웹 페이지를 작성하는 방법을 기술한 국제기술 표준
+  - 모든 검색로봇이 이 표준을 따르지는 않지만 일반 웹 사이트 개발자들이 손쉽게 적용할 수 있어 이용이 확산
+  - 서버관리자가 웹페이지 HTML 작성시 맨 위에 검색로봇을 배제한다는 의미의 'File:robots.txt', 'User-agent: * /' 등을 적어놓으면 검색로봇의 검색 대상에서 제외
+
+  ### 2. robots.txt 위치
+  - robots.txt를 적용할 웹사이트의 최상위 디렉토리에 적용
+
+  ```
+  ex) www.kyung.com/robots.txt
+  ```
+
+  ### 3. 형식
+  - `User-agent` : 검색봇 이름
+  - `Disallow` : 접근 설정
+  - `Crawl-delay` : 다음방문까지의 디레이(초)
+  - `*`(와일드카드)는 모든 로봇을 뜻하며, `/`(슬래시)는 모든 디렉토리를 뜻함
+
+  > 예시 1 - 구글, 다음 이외 모든 봇 차단
+
+  ```
+  User-agent: Googlebot
+  Disallow:
+
+  User-agent: Daumoa
+  Disallow:
+
+  User-agent: *
+  Disallow: /
+  ```
+
+  > 예시 2 - 모든 봇 허용
+
+  ```
+  User-agent: *
+  Disallow:
+  ```
+
+  > 예시 3 - 홈페이지 디렉토리의 일부만 검색엔진에 노출
+
+  ```
+  User-agent: *
+  Disallow: /conection/
+  Disallow: /my_conection/
+  ```
