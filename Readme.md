@@ -36,3 +36,9 @@
 
 ### 11. [Decorator](https://github.com/Lee-KyungSeok/Python-Study/tree/master/Decorator)
 > - Decorator / wraps 사용
+
+### 12. [Basic Jupyter](https://github.com/Lee-KyungSeok/Python-Study/tree/master/BasicJupyter)
+> - jupyter 설치 및 사용 / requests / beautifulsoup / robots.txt
+
+### 12. [Basic Crawling](https://github.com/Lee-KyungSeok/Python-Study/tree/master/BasicWebCrawl)
+> - Basic crawling / 타입 인코딩 / .find & .find_all 를 이용하기
