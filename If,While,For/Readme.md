@@ -223,7 +223,24 @@
   listEx = list(range(30)) # start 범위가 없으면 0~29
   ```
 
-  ### 3. pass
+  ### 3. enumerate(data, index)
+  - for문 등을 이용할 때 범위를 지정할 수 있다.
+  - data 요소를 그 뒤 index 부터 시작해서 끝까지 보여주며 이를 i 와 row 로 가져올 수 있게 해준다.
+
+  ```python
+  # 예시 1
+  data = [[1,2,3],[4,5,6],[7,8,9]]
+  for i, row in enumerate(data, 1):
+      print(i)        # 1, 2, 3
+      print(row)      # [1,2,3], [4,5,6], [7,8,9] 를 출력
+
+  # 예시 2 - 아래와 같이 이중포문 사용 가능
+  for i, row in enumerate(data, 1):
+      for j in range(len(row)):
+          data[i][j] += data[i][j]
+  ```
+
+  ### 4. pass
   - 조건문 및 반복문을 건너뛸 수 있다.
 
   ```Python
@@ -234,7 +251,7 @@
           pass # 작동하지 않지만 pass 하여 지나치게 된다
   ```
 
-  ### 4. all 과 any
+  ### 5. all 과 any
   - 리스트의 조건에 따라 True 및 False를 반환
 
   ```Python
