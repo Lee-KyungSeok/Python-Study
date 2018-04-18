@@ -9,7 +9,7 @@
 
 ### 3. [if, while, for](https://github.com/Lee-KyungSeok/Python-Study/tree/master/If%2CWhile%2CFor)
 > - if / while / for
-> - pass / range / 모듈 불러오기 / all 과 any
+> - pass / range / enumerate / 모듈 불러오기 / all 과 any
 
 ### 4. [DataStructure](https://github.com/Lee-KyungSeok/Python-Study/tree/master/DataStructure)
 > - tuple / dictionary / csv / set / List Comprehensions
@@ -40,5 +40,8 @@
 ### 12. [Basic Jupyter](https://github.com/Lee-KyungSeok/Python-Study/tree/master/BasicJupyter)
 > - jupyter 설치 및 사용 / requests / beautifulsoup / robots.txt
 
-### 12. [Basic Crawling](https://github.com/Lee-KyungSeok/Python-Study/tree/master/BasicWebCrawl)
+### 13. [Basic Crawling](https://github.com/Lee-KyungSeok/Python-Study/tree/master/BasicWebCrawl)
 > - Basic crawling / 타입 인코딩 / .find & .find_all 를 이용하기
+
+### 14. [numpy](https://github.com/Lee-KyungSeok/Python-Study/tree/master/numpy)
+> - numpy 모듈 활용하기 (ndArray)
