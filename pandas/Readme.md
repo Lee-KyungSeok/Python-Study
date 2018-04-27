@@ -26,7 +26,7 @@
   data = Series([5,4,3,-1,9])
   ```
 
-  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/numpy/picture/pandas.png)
+  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/pandas/picture/pandas.png)
 
   ### 2. values / type / index
   - `values` : ndarray 로 반환
@@ -49,7 +49,7 @@
   data2.index
   ```
 
-  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/numpy/picture/pandas2.png)
+  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/pandas/picture/pandas2.png)
 
   ### 4. 값 불러오기
   - 한가지 값 : `data[a]` , `data.a`
@@ -66,7 +66,7 @@
   data2[['a','b']]
   ```
 
-  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/numpy/picture/pandas3.png)
+  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/pandas/picture/pandas3.png)
 
   ### 5. numpy 내장함수 이용하기
   - sqrt / sum 등 이용 가능
@@ -93,7 +93,7 @@
   product_series = Series(product_and_price, index=['choco_ball', 'gum', 'bbabbaro', 'sacomdalcom', 'potatto_chip'])
   ```
 
-  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/numpy/picture/pandas4.png)
+  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/pandas/picture/pandas4.png)
 
   ### 8. Null 확인
   - `isnull()` : null이라면 True 반환
@@ -158,7 +158,7 @@
   df = DataFrame(data, columns = ['name', 'price', 'made'], index=[1,2,3,4])
   ```
 
-  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/numpy/picture/pandas5.png)
+  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/pandas/picture/pandas5.png)
 
   ### 2. 특정 데이터 불러오기
   - column 불러오기
@@ -182,7 +182,7 @@
   df.ix[[2,3], ['name', 'price']]
   ```
 
-  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/numpy/picture/pandas6.png)
+  ![](https://github.com/Lee-KyungSeok/Python-Study/blob/master/pandas/picture/pandas6.png)
 
   ### 3. slicing
   - slicing 가능
