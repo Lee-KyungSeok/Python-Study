@@ -51,3 +51,9 @@
 
 ### 16. [matplotlib](https://github.com/Lee-KyungSeok/Python-Study/tree/master/matplotlib/matplotlibPrac.ipynb)
 > - matplotlib (코드만 존재_정리는 X) [더 많은 곳 참고](https://datascienceschool.net/view-notebook/d0b1637803754bb083b5722c9f2209d0/)
+
+### 17. [pandas & matplotlib 활용 1](https://github.com/Lee-KyungSeok/Python-Study/tree/master/DataAnalysis/dataAnalysis.ipynb)
+> - 코드만 존재 (데이터분석 기초)
+
+### 18. [pandas & matplotlib 활용 2](https://github.com/Lee-KyungSeok/Python-Study/tree/master/DataAnalysis/dataAnalysis2.ipynb)
+> - 코드만 존재 (데이터분석 기초)
