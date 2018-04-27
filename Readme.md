@@ -45,3 +45,9 @@
 
 ### 14. [numpy](https://github.com/Lee-KyungSeok/Python-Study/tree/master/numpy)
 > - numpy 모듈 활용하기 (ndArray)
+
+### 15. [pandas](https://github.com/Lee-KyungSeok/Python-Study/tree/master/pandas)
+> - pandas 모듈 활용하기 (ndArray)
+
+### 16. [matplotlib](https://github.com/Lee-KyungSeok/Python-Study/tree/master/matplotlib/matplotlibPrac.ipynb)
+> - matplotlib (코드만 존재_정리는 X) [더 많은 곳 참고](https://datascienceschool.net/view-notebook/d0b1637803754bb083b5722c9f2209d0/)
