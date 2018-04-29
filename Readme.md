@@ -57,3 +57,6 @@
 
 ### 18. [pandas & matplotlib 활용 2](https://github.com/Lee-KyungSeok/Python-Study/tree/master/DataAnalysis/dataAnalysis2.ipynb)
 > - 코드만 존재 (데이터분석 기초)
+
+### 19. [Python Virtual environment](https://github.com/Lee-KyungSeok/Python-Study/tree/master/Virtual)
+> - 파이썬 가상환경 세팅
